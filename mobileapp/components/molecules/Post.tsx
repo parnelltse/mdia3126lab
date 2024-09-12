@@ -2,7 +2,7 @@ import { View, TextInput } from "react-native";
 import Label from "@/components/atoms/Label";
 import Image from "@/components/atoms/Image";
 
-export default function InputForm({ textForLabel, textForButton, textForPlaceholder }) {
+export default function Post({ textForLabel, textForButton, textForPlaceholder }) {
     return (
         <View
             style={{
