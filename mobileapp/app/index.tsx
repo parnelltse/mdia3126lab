@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import InputForm from "@/components/molecules/InputForm";
+import Post from "@/components/molecules/Post";
 
 export default function Index() {
   return (
@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <InputForm 
+      <Post
         textForLabel="Kanye"
         textForButton="woo"
         textForPlaceholder="Bada the bada the boom, I bada the boom, I bada the bing"
